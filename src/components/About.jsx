@@ -20,14 +20,12 @@ function About() {
             </Row>
             <Container className="about-section">
                 <Row>
-
                     <Col xs={6} md={4}>
                         <Image src={require( '../images/Sun Valley Photo copy.jpeg' )} className='about-image' rounded />
                     </Col>
 
                     <Col>
                         <div>
-
                             <h3 className="about-me">Hi! I am Michael Olsen and I have been at Monte Vista for 12 years. I
                                 taught 6th grade for 6 years and then moved to 5th grade to teach in the Dual
                                 Language Immersion program with Ms. Kang. Outside of teaching I moslty enjoy
@@ -39,7 +37,6 @@ function About() {
                     </Col>
                 </Row>
             </Container>
-
         </div>
 
     )

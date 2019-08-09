@@ -5,17 +5,7 @@ import { Parallax } from 'react-parallax';
 
 const MyParallax = () => (
     <div>
-        {/* <main class="wrapper">
-            <section class="section parallax bg1">
-                <h1>Mr. Olsen</h1>
-            </section>
-            <section class="section static">
-                <h1>Mr. Olsen</h1>
-            </section>
-            <section class="section parallax bg2">
-                <h1>Mr. Olsen</h1>
-            </section>
-        </main> */}
+
 
         <Parallax
             blur={{ min: -15, max: 15 }}
@@ -28,10 +18,7 @@ const MyParallax = () => (
 
                 </div>
             </div>
-
-
-
-            <div style={{ height: '750px' }} />
+            <div style={{ height: '680px' }} />
         </Parallax >
 
     </div >

@@ -6,9 +6,8 @@ import Nav from 'react-bootstrap/Nav'
 
 function Header() {
     return (
-        <div>
-
-            <Navbar bg="light" fixed="top" className="nav-bar">
+        <div className="nav-bar">
+            <Navbar bg="light" fixed="top" className='nav-bars' >
                 <Navbar.Brand href="#home">Mr. Olsen</Navbar.Brand>
                 <Nav className="mr-auto">
                     <Nav.Link className='menu' href="#home">Home</Nav.Link>
@@ -17,10 +16,7 @@ function Header() {
                     <Nav.Link href="#pricing">Helpful Websites</Nav.Link>
                 </Nav>
             </Navbar>
-
-
         </div>
-
     )
 }
 

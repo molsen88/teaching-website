@@ -1,5 +1,4 @@
 
-
 h1{
   margin-top: 250px;
   margin-left: 180px;
@@ -22,32 +21,71 @@ h3{
   font-size: 22px;
   text-align: justify;
 }
+.nav-bar{
+  height: 60px;
+ font-family: 'Raleway', sans-serif;
+ font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#696969;
+}
+
 
 /* About section styling */
 
 .about-title{
   font-family: 'Raleway', sans-serif;
-  font-size: 70px;
+  font-size: 80px;
   padding: 5px;
-  margin-top: 40px;
+  margin-top: 25px;
+  font-weight: 200;
   
 }
 
 .about-section{
-  margin: 60px;
+  margin: 40px;
   margin-left: 160px;
+
   
 }
 .about-image{
   height: 300px;
-  width: 300px;
+  width: 330px;
 }
 .about-me{
   margin-left: 40px;
-  line-height: 1.5;
+  line-height: 1.8;
+  margin-top: -10px;
   
 }
 
+.cards-row{
+  margin: 60px;
+}
+
+/******** Schedules styling ********/
+
+.schedules-info{
+  margin: 50px;
+}
+
+.schedule-title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  color: black;
+  margin-top: 20px;
+  margin-left: 65px;
+}
+
+.schedule-morning{
+  font-size: 22px;
+  margin-left: 65px;
+  line-height: 1.5;
+}
+
+.schedule-list{
+  margin-top: 100px;
+}
 
 
 
