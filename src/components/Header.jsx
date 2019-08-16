@@ -1,23 +1,53 @@
+// import React from 'react';
+// import Navbar from 'react-bootstrap/Navbar'
+// import Nav from 'react-bootstrap/Nav'
+
+
+
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
+export default class Header extends React.Component {
+    constructor( props ) {
+        super( props );
 
+        this.toggleNavbar = this.toggleNavbar.bind( this );
+        this.state = {
+            collapsed: true
+        };
+    }
 
-function Header() {
-    return (
-        <div className="nav-bar">
-            <Navbar bg="light" fixed="top" className='nav-bars' >
-                <Navbar.Brand href="#home">Mr. Olsen</Navbar.Brand>
-                <Nav className="mr-auto">
-                    <Nav.Link className='menu' href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Schedule</Nav.Link>
-                    <Nav.Link href="#pricing">Homework Policy</Nav.Link>
-                    <Nav.Link href="#pricing">Helpful Websites</Nav.Link>
-                </Nav>
-            </Navbar>
-        </div>
-    )
+    toggleNavbar() {
+        this.setState( {
+            collapsed: !this.state.collapsed
+        } );
+    }
+    render() {
+        return (
+            <div className="navigation-bar">
+                <Navbar color="muted" light>
+                    <NavbarBrand href="/" className="mr-auto">MR. OLSEN</NavbarBrand>
+                    <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
+                    <Collapse isOpen={!this.state.collapsed} navbar>
+                        <Nav navbar>
+                            <NavItem>
+                                <NavLink href="/components/">Mr. Olsen</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                            </NavItem>
+                        </Nav>
+                    </Collapse>
+                </Navbar>
+            </div>
+        );
+    }
 }
 
-export default Header;
+

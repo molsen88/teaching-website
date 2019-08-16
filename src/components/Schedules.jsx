@@ -26,11 +26,10 @@ function Schedules() {
                                     <ul>
                                         <li>8:55-School Starts</li>
                                         <li>9:00-Self Start</li>
-                                        <li>9:15-Math</li>
-                                        <li>10:00-Language Arts</li>
-                                        <li>10:35-Rainbow Groups</li>
-                                        <li>11:15-Language Arts</li>
-                                        <li>12:20-Lunch</li>
+                                        <li>9:15-Language Arts</li>
+                                        <li>10:35-Rotations</li>
+                                        <li>11:15-Math</li>
+                                        <li>12:20-Rotate/Lunch</li>
                                     </ul>
                                 </h3>
                             </div>
@@ -49,10 +48,9 @@ function Schedules() {
                                 <h3 className='schedule-morning'>
                                     <ul>
                                         <li>1:00-Self-Start</li>
-                                        <li>1:15-Math</li>
-                                        <li>2:00-Language Arts</li>
+                                        <li>1:15-Language Arts</li>
                                         <li>2:30-Recess</li>
-                                        <li>2:45-Language Arts</li>
+                                        <li>2:45-Math</li>
                                         <li>3:30-Clean up</li>
                                         <li>3:35-School Ends</li>
                                     </ul>
@@ -77,7 +75,6 @@ function Schedules() {
                                         <li>10:45-Afternoon Class</li>
                                         <li>11:00-Recess</li>
                                         <li>12:20-Lunch</li>
-                                        <li>1:00-Afternoon Class</li>
                                         <li>1:30-Sharpen the Saw</li>
                                     </ul>
                                 </h3>

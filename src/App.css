@@ -21,14 +21,47 @@ h3{
   font-size: 22px;
   text-align: justify;
 }
-.nav-bar{
-  height: 60px;
- font-family: 'Raleway', sans-serif;
- font-size: 20px;
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    background-color: white;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+    opacity: 0.99;
+    margin-bottom: 10px;
 }
 .navbar-light .navbar-nav .nav-link {
-    color:#696969;
+    color:#303030;
 }
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 27px;
+    line-height: inherit;
+    white-space: nowrap;
+   
+}
+
+.parallax-style{
+  margin-top: 65px;
+  width: 100%;
+  height: 680px;
+}
+
 
 
 /* About section styling */
@@ -85,6 +118,13 @@ h3{
 
 .schedule-list{
   margin-top: 100px;
+}
+
+.carousel-items{
+  height: 600px;
+}
+.carousel-items img{
+  height: 400px;
 }
 
 

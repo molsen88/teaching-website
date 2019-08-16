@@ -4,7 +4,7 @@ import { Parallax } from 'react-parallax';
 
 
 const MyParallax = () => (
-    <div>
+    <div className='parallax-style'>
 
 
         <Parallax
