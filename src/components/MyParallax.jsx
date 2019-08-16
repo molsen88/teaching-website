@@ -3,6 +3,7 @@ import { Parallax } from 'react-parallax';
 
 
 
+
 const MyParallax = () => (
     <div className='parallax-style'>
 
@@ -14,7 +15,7 @@ const MyParallax = () => (
             strength={200}
         >
             <div>
-                <div className='home-title'><h1 >Welcome to <br />Mr. Olsen's Class</h1>
+                <div className='home-title'>
 
                 </div>
             </div>

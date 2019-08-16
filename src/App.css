@@ -120,11 +120,12 @@ h3{
   margin-top: 100px;
 }
 
-.carousel-items{
-  height: 600px;
-}
-.carousel-items img{
-  height: 400px;
+/********Carousel***********/
+
+.carousel-image {
+  width: 100%;
+  height: 700px;
+  margin-top: 20px;
 }
 
 

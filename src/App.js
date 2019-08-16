@@ -4,6 +4,7 @@ import Header from './components/Header'
 import MyParallax from './components/MyParallax';
 import About from './components/About'
 import Schedules from './components/Schedules'
+import ClassCarousel from './components/ClassCarousel';
 // import StudentWork from './components/StudentWork'
 
 
@@ -11,9 +12,14 @@ function App() {
   return (
     <div>
       <Header />
-      <MyParallax />
+      <ClassCarousel />
       <About />
       <Schedules />
+      <MyParallax />
+      <Schedules />
+      <Schedules />
+
+
 
 
 
