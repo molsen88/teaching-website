@@ -1,9 +1,3 @@
-// import React from 'react';
-// import Navbar from 'react-bootstrap/Navbar'
-// import Nav from 'react-bootstrap/Nav'
-
-
-
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
