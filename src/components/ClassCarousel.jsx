@@ -16,7 +16,7 @@ function ClassCarousel() {
                     <Carousel.Item>
                         <Image src={require( '../images/Front Room Photo.jpg' )} className='carousel-image' rounded />
                         < Carousel.Caption >
-                            <div className="first-slide-section">
+                            <div className="first-slide-section fadeIn">
                                 <h3 className="carousel-labels">First slide label</h3>
                                 <p className="carousel-description">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                             </div>

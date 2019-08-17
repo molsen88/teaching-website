@@ -129,19 +129,38 @@ h3{
   object-fit: cover;
   
 }
-.first-slide-section{
-  width: 400px;
-  padding: 50px;
-  margin: 20px;
-  background-color: white;
-  opacity: 0.7;
-}
 
  .carousel-labels{
   font-family: 'Raleway', sans-serif;
   font-size: 36px;
   color: black;
 }
+.first-slide-section{
+  width: 400px;
+  padding: 50px;
+  margin: 20px;
+  background-color: white;
+  -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 0.7;}
+         }
+         
+         @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 0.7;}
+         }
+         
+         .fadeIn {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+         }
+
+
 
 
 
