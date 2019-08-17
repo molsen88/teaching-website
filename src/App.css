@@ -64,7 +64,7 @@ h3{
 
 
 
-/* About section styling */
+/********ABOUT SECTION STYLING *********/
 
 .about-title{
   font-family: 'Raleway', sans-serif;
@@ -96,7 +96,7 @@ h3{
   margin: 60px;
 }
 
-/******** Schedules styling ********/
+/********SCHEDULES STYLING********/
 
 .schedules-info{
   margin: 50px;
@@ -120,12 +120,27 @@ h3{
   margin-top: 100px;
 }
 
-/********Carousel***********/
+/********CAROUSEL***********/
 
 .carousel-image {
+  margin: auto;
   width: 100%;
-  height: 700px;
-  margin-top: 20px;
+  height: 710px;    
+  object-fit: cover;
+  
+}
+.first-slide-section{
+  width: 400px;
+  padding: 50px;
+  margin: 20px;
+  background-color: white;
+  opacity: 0.7;
+}
+
+ .carousel-labels{
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  color: black;
 }
 
 
