@@ -5,6 +5,7 @@ import MyParallax from './components/MyParallax';
 import About from './components/About'
 import Schedules from './components/Schedules'
 import ClassCarousel from './components/ClassCarousel';
+import HelpfulLinks from './components/HelpfulLinks'
 // import StudentWork from './components/StudentWork'
 
 
@@ -16,8 +17,8 @@ function App() {
       <About />
       <Schedules />
       <MyParallax />
-      <Schedules />
-      <Schedules />
+      <HelpfulLinks />
+
 
 
 

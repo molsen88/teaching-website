@@ -158,7 +158,45 @@ h3{
          .fadeIn {
             -webkit-animation-name: fadeIn;
             animation-name: fadeIn;
-         }
+}
+/**************ICONS AND ICONS ROW*******************/
+
+.icon-row{
+  width: fit-content;
+  margin-top: 100px;
+}
+.icon{
+  color: #F4A351;
+  font-size: 140px;
+}
+.icon-cards{
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+ .icon-book-label{
+  margin-top: 10px;
+  margin-left: 0px;
+  font-size: 30px;
+  color: #F4A351;
+}
+.icon-skyward-label{
+  margin-top: 10px;
+  margin-left: 0px;
+  font-size: 30px;
+  color: #F4A351;
+}
+.icon-link-label{
+  margin-top: 10px;
+  margin-left: 45px;
+  font-size: 30px;
+  color: #F4A351;
+}
+.icon:hover{
+  color: blue;
+  cursor: pointer;
+}
+    
 
 
 
