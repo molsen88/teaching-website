@@ -17,7 +17,7 @@ function ClassCarousel() {
                         <Image src={require( '../images/Front Room Photo.jpg' )} className='carousel-image' rounded />
                         < Carousel.Caption >
                             <div className="first-slide-section fadeIn">
-                                <h3 className="carousel-labels">First slide label</h3>
+                                <h3 className="carousel-labels">Welcome to Mr. Olsen's class</h3>
                                 <p className="carousel-description">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                             </div>
                         </Carousel.Caption>
@@ -26,7 +26,7 @@ function ClassCarousel() {
                         <Image src={require( '../images/Reading Corner.jpg' )} className='carousel-image' rounded />
 
                         <Carousel.Caption>
-                            <h3>Second slide label</h3>
+                            <h3 className="carousel-labels">Learning is fun</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </Carousel.Caption>
                     </Carousel.Item>

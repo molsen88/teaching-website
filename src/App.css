@@ -52,8 +52,7 @@ h3{
     margin-right: 1rem;
     font-size: 27px;
     line-height: inherit;
-    white-space: nowrap;
-   
+    white-space: nowrap;  
 }
 
 .parallax-style{
@@ -62,8 +61,6 @@ h3{
   height: 680px;
 }
 
-
-
 /********ABOUT SECTION STYLING *********/
 
 .about-title{
@@ -71,25 +68,23 @@ h3{
   font-size: 80px;
   padding: 5px;
   margin-top: 25px;
-  font-weight: 200;
-  
+  font-weight: 200;  
 }
 
 .about-section{
   margin: 40px;
   margin-left: 160px;
-
-  
 }
+
 .about-image{
   height: 300px;
   width: 330px;
 }
+
 .about-me{
   margin-left: 40px;
   line-height: 1.8;
-  margin-top: -10px;
-  
+  margin-top: -10px; 
 }
 
 .cards-row{
@@ -127,19 +122,19 @@ h3{
   width: 100%;
   height: 710px;    
   object-fit: cover;
-  
 }
 
  .carousel-labels{
   font-family: 'Raleway', sans-serif;
-  font-size: 36px;
-  color: black;
+  font-size: 45px;
+  color: white;
 }
+
 .first-slide-section{
-  width: 400px;
-  padding: 50px;
-  margin: 20px;
-  background-color: white;
+  margin-bottom: 300px;
+  width: 750px;
+  padding: 30px;
+  background-color: black;
   -webkit-animation-duration: 5s;
             animation-duration: 5s;
             -webkit-animation-fill-mode: both;
@@ -163,16 +158,17 @@ h3{
 
 .icon-row{
   width: fit-content;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 .icon{
   color: #F4A351;
   font-size: 140px;
 }
 .icon-cards{
-  margin-left: 200px;
+  margin-left: 120px;
   margin-top: 100px;
-  margin-right: 100px;
+  margin-right: 50px;
 }
  .icon-book-label{
   margin-top: 10px;
@@ -192,10 +188,27 @@ h3{
   font-size: 30px;
   color: #F4A351;
 }
-.icon:hover{
-  color: blue;
-  cursor: pointer;
+.icon-arch-label{
+  margin-top: 10px;
+  margin-left: -43px;
+  font-size: 30px;
+  color: #F4A351;
 }
+.icon:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+/*********FOOTER**********/
+.footer{
+  width: 100%;
+  margin-top: 175px;
+  height: 60px;
+}
+
+.first-column{
+  margin-left: 600px;
+}
+
     
 
 

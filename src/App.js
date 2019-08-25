@@ -6,6 +6,7 @@ import About from './components/About'
 import Schedules from './components/Schedules'
 import ClassCarousel from './components/ClassCarousel';
 import HelpfulLinks from './components/HelpfulLinks'
+import Footer from './components/Footer'
 // import StudentWork from './components/StudentWork'
 
 
@@ -14,10 +15,11 @@ function App() {
     <div>
       <Header />
       <ClassCarousel />
-      <About />
-      <Schedules />
-      <MyParallax />
       <HelpfulLinks />
+      <About />
+      <MyParallax />
+      <Schedules />
+      <Footer />
 
 
 
