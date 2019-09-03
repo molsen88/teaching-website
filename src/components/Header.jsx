@@ -25,16 +25,16 @@ export default class Header extends React.Component {
                     <Collapse isOpen={!this.state.collapsed} navbar>
                         <Nav navbar>
                             <NavItem>
-                                <NavLink href="/components/">Mr. Olsen</NavLink>
+                                <NavLink href="/components/">Home</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                                <NavLink href="https://github.com/reactstrap/reactstrap">Classroom Policies</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                                <NavLink href="https://github.com/reactstrap/reactstrap">Helpful Links</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                                <NavLink href="https://github.com/reactstrap/reactstrap">Booklist</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>

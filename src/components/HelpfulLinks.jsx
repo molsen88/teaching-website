@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBook, faRocket, faDesktop, faArchway } from '@fortawesome/free-solid-svg-icons'
+import { NavLink } from 'reactstrap';
 
 
 
@@ -18,8 +19,10 @@ function HelpfulLinks() {
             </Col>
             <Col>
                 <div className='icon-cards'>
-                    <FontAwesomeIcon className='icon' icon={faRocket} />
-                    <h1 className='icon-skyward-label'>Skyward</h1>
+                    <NavLink href="https://jordandistrict.org/resources/gradebook/" target="_blank">
+                        <FontAwesomeIcon className='icon' icon={faRocket} />
+                        <h1 className='icon-skyward-label'>Skyward</h1>
+                    </NavLink>
                 </div>
             </Col>
             <Col>
@@ -30,8 +33,10 @@ function HelpfulLinks() {
             </Col>
             <Col>
                 <div className='icon-cards'>
-                    <FontAwesomeIcon className='icon' icon={faArchway} />
-                    <h1 className='icon-arch-label'>Golden Gate Kids</h1>
+                    <NavLink href="https://goldengatemovement.org/" target="_blank">
+                        <FontAwesomeIcon className='icon' icon={faArchway} />
+                        <h1 className='icon-arch-label'>Golden Gate Kids</h1>
+                    </NavLink>
                 </div>
             </Col>
         </Row>

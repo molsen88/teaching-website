@@ -131,7 +131,8 @@ h3{
 }
 
 .first-slide-section{
-  margin-bottom: 300px;
+  margin-bottom: 180px;
+  margin-left: 60px;
   width: 750px;
   padding: 30px;
   background-color: black;
@@ -139,6 +140,7 @@ h3{
             animation-duration: 5s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
+            z-index: 10;
 }
 @-webkit-keyframes fadeIn {
             0% {opacity: 0;}
@@ -154,6 +156,14 @@ h3{
             -webkit-animation-name: fadeIn;
             animation-name: fadeIn;
 }
+
+.carousel-indicators li{
+  display: none;
+}
+.carousel-icon{
+  font-size: 43px;
+  color: white;
+}
 /**************ICONS AND ICONS ROW*******************/
 
 .icon-row{
@@ -162,7 +172,7 @@ h3{
   margin-bottom: 100px;
 }
 .icon{
-  color: #F4A351;
+  color: #2a4b7c;
   font-size: 140px;
 }
 .icon-cards{
@@ -174,30 +184,53 @@ h3{
   margin-top: 10px;
   margin-left: 0px;
   font-size: 30px;
-  color: #F4A351;
+  color: #2a4b7c;
 }
 .icon-skyward-label{
   margin-top: 10px;
   margin-left: 0px;
   font-size: 30px;
-  color: #F4A351;
+  color: #2a4b7c;
 }
 .icon-link-label{
-  margin-top: 10px;
+  margin-top: 18px;
   margin-left: 45px;
   font-size: 30px;
-  color: #F4A351;
+  color: #2a4b7c;
 }
 .icon-arch-label{
   margin-top: 10px;
   margin-left: -43px;
   font-size: 30px;
-  color: #F4A351;
+  color: #2a4b7c;
 }
 .icon:hover{
   cursor: pointer;
   transform: scale(1.2);
 }
+
+
+/*********CARD GROUP ROW**********/
+
+.card-group-row{
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.card-title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+}
+
+/*********MODALS**********/
+.modal-title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+}
+.btn-primary{
+  background-color: #2a4b7c;
+}
+
 /*********FOOTER**********/
 .footer{
   width: 100%;
@@ -208,6 +241,18 @@ h3{
 .first-column{
   margin-left: 600px;
 }
+
+
+/*********BOOK BUTTON**********/
+.book-button{
+  color: white;
+  background-color: #F4A351;
+  border-radius: 20px;
+  border: none;
+  margin-left: 10px;
+}
+
+
 
     
 

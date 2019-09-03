@@ -4,6 +4,8 @@ import Col from 'react-bootstrap/Col'
 import Carousel from 'react-bootstrap/Carousel'
 import Image from 'react-bootstrap/Image'
 import '../images/Mohamed-Salah-wallpaper-HD.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -20,6 +22,8 @@ function ClassCarousel() {
                                 <h3 className="carousel-labels">Welcome to Mr. Olsen's class</h3>
                                 <p className="carousel-description">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                             </div>
+                            <h6>Scroll</h6>
+                            <FontAwesomeIcon className='carousel-icon' icon={faArrowDown} />
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>

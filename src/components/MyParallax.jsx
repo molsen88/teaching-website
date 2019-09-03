@@ -16,6 +16,7 @@ const MyParallax = () => (
         >
             <div>
                 <div className='home-title'>
+                    <h1 className='parallax-title'>Hello</h1>
 
                 </div>
             </div>
