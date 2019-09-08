@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
-import Button from 'react-bootstrap/Button'
 import SocialStudiesModal from '../components/SocialStudiesModal'
 import MathModal from '../components/MathModal'
 import LanguageArtsModal from '../components/LanguageArtsModal'

@@ -8,7 +8,7 @@ function Schedules() {
             <Row>
                 <Col>
                     <div className='about-title'>
-                        <h2 className='about-title'>Schedules</h2>
+                        <h2 className='main-schedule-title'>Schedules</h2>
                     </div>
                 </Col>
             </Row>

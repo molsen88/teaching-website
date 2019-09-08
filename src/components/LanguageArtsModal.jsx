@@ -33,19 +33,19 @@ function LanguageArtsModal() {
                     <Row>
                         <Col>
                             <div>
-                                Comprehension
+                                <h4 className='modal-language-title'>Comprehension</h4>
                             </div>
                         </Col>
                         <Col>
                             <div>
-                                Fluency
+                                <h4 className='modal-language-title'>Fluency</h4>
                             </div>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
                             <div>
-                                Vocabulary Words
+                                <h4 className='modal-language-title'>Vocabulary Words</h4>
                             </div>
                         </Col>
                     </Row>
