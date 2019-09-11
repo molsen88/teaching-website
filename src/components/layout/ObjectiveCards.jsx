@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
-import SocialStudiesModal from '../components/SocialStudiesModal'
-import MathModal from '../components/MathModal'
-import LanguageArtsModal from '../components/LanguageArtsModal'
-import ScienceModal from '../components/ScienceModal'
+import SocialStudiesModal from './SocialStudiesModal'
+import MathModal from './MathModal'
+import LanguageArtsModal from './LanguageArtsModal'
+import ScienceModal from '../layout/ScienceModal'
 
 
 
@@ -14,7 +14,7 @@ class ObjectiveCards extends Component {
         return (
             <CardGroup className="card-group-row">
                 <Card>
-                    <Card.Img variant="top" src={require( '../images/Social Studies.jpeg' )} />
+                    <Card.Img variant="top" src={require( '../../images/Social Studies.jpeg' )} />
                     <Card.Body>
                         <Card.Title className='card-title'>Social Studies</Card.Title>
                         <Card.Text>
@@ -27,7 +27,7 @@ class ObjectiveCards extends Component {
                     </Card.Footer>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src={require( '../images/Science.jpeg' )} />
+                    <Card.Img variant="top" src={require( '../../images/Science.jpeg' )} />
                     <Card.Body>
                         <Card.Title className='card-title'>Science</Card.Title>
                         <Card.Text>
@@ -40,7 +40,7 @@ class ObjectiveCards extends Component {
                     </Card.Footer>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src={require( '../images/images.jpeg' )} />
+                    <Card.Img variant="top" src={require( '../../images/images.jpeg' )} />
                     <Card.Body>
                         <Card.Title className='card-title'>Math</Card.Title>
                         <Card.Text>
@@ -53,7 +53,7 @@ class ObjectiveCards extends Component {
                     </Card.Footer>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src={require( '../images/Reading.jpeg' )} />
+                    <Card.Img variant="top" src={require( '../../images/Reading.jpeg' )} />
                     <Card.Body>
                         <Card.Title className='card-title'>Language Arts</Card.Title>
                         <Card.Text>

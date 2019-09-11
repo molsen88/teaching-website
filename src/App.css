@@ -41,6 +41,7 @@ h3{
           box-shadow: 0 8px 6px -6px black;
     opacity: 0.99;
     margin-bottom: 10px;
+    z-index: 500;
 }
 .navbar-light .navbar-nav .nav-link {
     color:#303030;
@@ -53,6 +54,7 @@ h3{
     font-size: 27px;
     line-height: inherit;
     white-space: nowrap;  
+   
 }
 
 .parallax-style{
@@ -148,11 +150,13 @@ h3{
             animation-duration: 5s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
-            z-index: 10;
+            z-index: 2;
+            
 }
 @-webkit-keyframes fadeIn {
             0% {opacity: 0;}
             100% {opacity: 0.7;}
+            
          }
          
          @keyframes fadeIn {
@@ -163,6 +167,7 @@ h3{
          .fadeIn {
             -webkit-animation-name: fadeIn;
             animation-name: fadeIn;
+            
 }
 
 .carousel-indicators li{

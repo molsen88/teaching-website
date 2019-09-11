@@ -10,7 +10,7 @@ const MyParallax = () => (
 
         <Parallax
             blur={{ min: -15, max: 15 }}
-            bgImage={require( '../images/Sunset Beach.jpg' )}
+            bgImage={require( '../../images/Sunset Beach.jpg' )}
             bgImageAlt="sun valley"
             strength={200}
         >

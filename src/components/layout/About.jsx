@@ -21,7 +21,7 @@ function About() {
             <Container className="about-section">
                 <Row>
                     <Col xs={6} md={4}>
-                        <Image src={require( '../images/Sun Valley Photo copy.jpeg' )} className='about-image' rounded />
+                        <Image src={require( '../../images/Sun Valley Photo copy.jpeg' )} className='about-image' rounded />
                     </Col>
 
                     <Col>
